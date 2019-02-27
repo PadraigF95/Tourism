@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Tourism</string>
+
+
+    <string name="logintitle">Login</string>
+    <string name="loginPassword">Password</string>
+    <string name="btnLogin">Login</string>
+    <string name="registerTitle">Register</string>
+    <string name="registerEmail">Email</string>
+    <string name="registerUsername">Username</string>
+    <string name="registerPassword">Password</string>
+    <string name="btnRegister">Register</string>
+    <string name="btnfacebook">fb_login</string>
+    <string name="btnLogout">Logout</string>
+
+</resources>
