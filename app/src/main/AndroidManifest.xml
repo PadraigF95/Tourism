@@ -9,18 +9,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".ie.cm.activities.Edit"></activity>
+        <activity android:name=".ie.cm.activities.Search" />
+        <activity android:name=".ie.cm.activities.Help" />
+        <activity android:name=".ie.cm.activities.Add" />
+        <activity android:name=".ie.cm.activities.Home">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Login" />
-        <activity android:name=".Register" />
-        <activity android:name=".Splashscreen" />
-        <activity android:name=".Logout" />
-        <activity android:name=".Currency_Converter"></activity>
+        <activity android:name=".ie.cm.activities.Login" />
+        <activity android:name=".ie.cm.activities.Register" />
+        <activity android:name=".ie.cm.activities.Splashscreen" />
+        <activity android:name=".ie.cm.activities.Logout" />
+        <activity android:name=".ie.cm.activities.Currency_Converter" />
     </application>
 
 </manifest>
