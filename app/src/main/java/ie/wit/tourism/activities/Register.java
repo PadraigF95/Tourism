@@ -2,7 +2,6 @@ package ie.wit.tourism.activities;
 
 import android.content.Intent;
 import android.support.annotation.NonNull;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -61,7 +60,7 @@ public class Register extends Base {
 
     private void setUIViews() {
         registerEmail = (EditText) findViewById(R.id.Email);
-        registerPassword = (EditText) findViewById(R.id.loginPassword);
+        registerPassword = (EditText) findViewById(R.id.Password);
         registerUsername = (EditText) findViewById(R.id.Username);
         btnregister = (Button) findViewById(R.id.button);
     }

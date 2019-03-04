@@ -25,8 +25,8 @@
     <string name="addAttractionBtnLbl">Add Attraction</string>
     <string name="saveCoffeeBtn">Save Attraction</string>
     <string name="recentlyViewedLbl">Recently Added Attraction\'s</string>
-    <string name="attractionNameLbl">Name :</string>
-    <string name="attractionLocationLbl">Location :</string>
+    <string name="attractionNameLbl">Location :</string>
+    <string name="attractionLocationLbl">Name :</string>
     <string name="attractionPriceLbl">Price : </string>
     <string name="attractionRatingLbl">Star Rating</string>
     <string name="attractionDetailsLbl">Full Attraction Details</string>

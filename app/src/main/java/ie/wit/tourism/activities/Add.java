@@ -25,7 +25,7 @@ public class Add extends Base {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.add);
 
-        name = findViewById(R.id.addNameBX);
+        name = findViewById(R.id.addLocationBX);
         location =  findViewById(R.id.addLocationBX);
         price =  findViewById(R.id.editPriceET);
         ratingBar =  findViewById(R.id.addRatingBar);

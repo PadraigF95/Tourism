@@ -9,13 +9,14 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 import ie.wit.tourism.R;
+import ie.wit.tourism.fragments.AttractionFragment;
 import ie.wit.tourism.main.NewRossTourism;
 
 public class Base extends AppCompatActivity {
 
     public NewRossTourism app;
     public Bundle activityInfo;
-
+    public AttractionFragment attractionFragment;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

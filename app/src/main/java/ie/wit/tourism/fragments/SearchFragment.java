@@ -11,7 +11,7 @@ import android.widget.Spinner;
 
 import ie.wit.tourism.R;
 
-public class SearchFragment extends AttractionsFragment
+public class SearchFragment extends AttractionFragment
         implements AdapterView.OnItemSelectedListener {
 
     String selected;
@@ -97,8 +97,8 @@ public class SearchFragment extends AttractionsFragment
     public void onNothingSelected(AdapterView<?> parent) { }
 
     @Override
-    public void deleteCoffees(ActionMode actionMode) {
-        super.deleteCoffees(actionMode);
+    public void deleteAttractions(ActionMode actionMode) {
+        super.deleteAttractions(actionMode);
         checkSelected(selected);
     }
 

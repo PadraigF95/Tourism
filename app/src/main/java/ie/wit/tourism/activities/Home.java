@@ -9,6 +9,7 @@ import android.view.View;
 
 
 import ie.wit.tourism.R;
+import ie.wit.tourism.fragments.AttractionFragment;
 import ie.wit.tourism.models.Attraction;
 
 public class Home extends Base {
@@ -50,4 +51,20 @@ public class Home extends Base {
         startActivity(new Intent(this, Favourites.class));
     }
 
+    @Override
+    protected void onResume() {
+        super.onResume();
+
+        attractionFragment = AttractionFragment.newInstance(); //get a new Fragment instance
+        getFragmentManager().beginTransaction()
+                .replace(R.id.fragment_container, attractionFragment)
+                .commit(); // add it to the current activity
+    }
+
+    public void setupAttractions(){
+        app.attractionList.add(new Attraction("Dunbrody Famine ship", "The Quay,New Ross",3.5,10.99,false));
+        app.attractionList.add(new Attraction("The Kennedy Home Stead", "Dunganstown",3.5,8.99,true));
+        app.attractionList.add(new Attraction("Kennedy Statue", "The Quay,New Ross",4.5,0.00,true));
+    }
 }
+
