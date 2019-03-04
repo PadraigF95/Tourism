@@ -2,13 +2,15 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="ie.cm.activities.Home">
+    tools:context=".activities.Home">
 
-    <item android:id="@+id/menu_help"
-        android:title="Help"
+    <item android:id="@+id/menu_home"
+        android:title="Home"
         android:orderInCategory="100"
-        android:onClick="menuHelp"
+        android:onClick="menuHome"
         app:showAsAction="never" />
+
+
 
     <item android:id="@+id/menu_info"
         android:title="Info"
@@ -17,11 +19,36 @@
         app:showAsAction="never" />
 
     <item
-        android:id="@+id/menu_home"
-        android:icon="@drawable/home"
-        android:onClick="menuHome"
+        android:id="@+id/menu_register"
+
+        android:onClick="menuRegister"
         android:orderInCategory="100"
-        android:title="Home"
+        android:title="Register"
+
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/menu_login"
+
+        android:onClick="menuLogin"
+        android:orderInCategory="100"
+        android:title="Login"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/menu_Converter"
+
+        android:onClick="menuConverter"
+        android:orderInCategory="100"
+        android:title="Converter"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/menu_logout"
+
+        android:onClick="menuLogout"
+        android:orderInCategory="100"
+        android:title="Logout"
         app:showAsAction="ifRoom" />
 
 </menu>

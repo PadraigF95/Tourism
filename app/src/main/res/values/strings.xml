@@ -21,19 +21,18 @@
 
     <string name="searchAttractionsLbl">Search Attraction\'s</string>
     <string name="favouritesAttractionsLbl">Favourite Attraction\'s</string>
-    <string name="addAnAttractionLbl">Coffee Check In</string>
-    <string name="addAttractionBtnLbl">Add Coffee</string>
+    <string name="addAnAttractionLbl">Attraction Check In</string>
+    <string name="addAttractionBtnLbl">Add Attraction</string>
     <string name="saveCoffeeBtn">Save Attraction</string>
-    <string name="saveAttractionBtn">Save Attraction</string>
     <string name="recentlyViewedLbl">Recently Added Attraction\'s</string>
     <string name="attractionNameLbl">Name :</string>
     <string name="attractionLocationLbl">Location :</string>
     <string name="attractionPriceLbl">Price : </string>
-    <string name="coffeeRatingLbl">Star Rating</string>
-    <string name="coffeeDetailsLbl">Full Attraction Details</string>
+    <string name="attractionRatingLbl">Star Rating</string>
+    <string name="attractionDetailsLbl">Full Attraction Details</string>
     <string name="informationLbl">Information</string>
     <string name="emptyMessageLbl">You have no tourist attraction/s added</string>
-    <string name="deleteAttractionLbl">Delete Coffees</string>
+    <string name="deleteAttractionLbl">Delete Attraction</string>
 
 
     <string-array name="attractionTypes">
@@ -41,5 +40,8 @@
         <item>Favourites</item>
         <item>\> 3\* Rating</item>
     </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>

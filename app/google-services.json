@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "371974199671",
+    "firebase_url": "https://mobileappdev-2.firebaseio.com",
+    "project_id": "mobileappdev-2",
+    "storage_bucket": "mobileappdev-2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:371974199671:android:3039925ef44a8d87",
+        "android_client_info": {
+          "package_name": "ie.wit.tourism"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "371974199671-keobttkae02u9nf7986vqv1rdfn07170.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFu3JQeI4xkcr2uWDlNBbrpYe3N1vGqHI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

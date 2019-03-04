@@ -8,23 +8,27 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".ie.cm.activities.Edit"></activity>
-        <activity android:name=".ie.cm.activities.Search" />
-        <activity android:name=".ie.cm.activities.Help" />
-        <activity android:name=".ie.cm.activities.Add" />
-        <activity android:name=".ie.cm.activities.Home">
+        android:theme="@style/AppTheme"
+        android:name="ie.wit.tourism.main.NewRossTourism">
+        <activity android:name=".activities.Home"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ie.cm.activities.Login" />
-        <activity android:name=".ie.cm.activities.Register" />
-        <activity android:name=".ie.cm.activities.Splashscreen" />
-        <activity android:name=".ie.cm.activities.Logout" />
-        <activity android:name=".ie.cm.activities.Currency_Converter" />
+        <activity android:name=".activities.Edit"></activity>
+        <activity android:name=".activities.Search" />
+        <activity android:name=".activities.Help" />
+        <activity android:name=".activities.Add" />
+        <activity android:name=".activities.Login" />
+        <activity android:name=".activities.Register" />
+        <activity android:name=".activities.Splashscreen" />
+        <activity android:name=".activities.Logout" />
+        <activity android:name=".activities.Currency_Converter" />
     </application>
 
 </manifest>

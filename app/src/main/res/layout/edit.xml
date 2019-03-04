@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ie.cm.activities.Edit">
+    tools:context=".activities.Edit">
 
     <TextView
         android:id="@+id/editBarTV"
@@ -13,7 +13,7 @@
         android:layout_marginTop="104dp"
         android:background="@color/colorPrimary"
         android:paddingBottom="2dp"
-        android:text="@string/coffeeDetailsLbl"
+        android:text="@string/attractionDetailsLbl"
         android:textAlignment="center"
         android:textColor="@color/colorFontWhite"
         android:textSize="18sp"

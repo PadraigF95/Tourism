@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ie.cm.activities.Add">
+    tools:context=".activities.Add">
 
     <TextView
         android:id="@+id/addfooter"
@@ -25,7 +25,7 @@
         app:layout_constraintVertical_bias="1.0" />
 
     <TextView
-        android:id="@+id/addPriceTV"
+        android:id="@+id/addName"
         android:layout_width="99dp"
         android:layout_height="43dp"
         android:paddingTop="10dp"
@@ -41,7 +41,7 @@
         app:layout_constraintVertical_bias="0.032" />
 
     <TextView
-        android:id="@+id/addShopTV"
+        android:id="@+id/addLocation"
         android:layout_width="99dp"
         android:layout_height="43dp"
         android:paddingTop="10dp"
@@ -57,7 +57,7 @@
         app:layout_constraintVertical_bias="0.319" />
 
     <TextView
-        android:id="@+id/addNameTV"
+        android:id="@+id/addPrice"
         android:layout_width="99dp"
         android:layout_height="43dp"
         android:paddingTop="10dp"
@@ -73,7 +73,7 @@
         app:layout_constraintVertical_bias="0.17" />
 
     <EditText
-        android:id="@+id/addNameET"
+        android:id="@+id/addNameBX"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -86,12 +86,12 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.447"
-        app:layout_constraintStart_toEndOf="@+id/addNameTV"
+        app:layout_constraintStart_toEndOf="@+id/addPrice"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.017" />
 
     <EditText
-        android:id="@+id/addPriceET"
+        android:id="@+id/addLocationBX"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -100,27 +100,27 @@
         android:layout_marginBottom="8dp"
         android:ems="10"
         android:hint="Enter Location"
-        android:inputType="numberDecimal"
+        android:inputType="textPersonName"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.447"
-        app:layout_constraintStart_toEndOf="@+id/addPriceTV"
+        app:layout_constraintStart_toEndOf="@+id/addName"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.296" />
 
     <EditText
-        android:id="@+id/addShopET"
+        android:id="@+id/addPriceBX"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:ems="10"
         android:hint="How much did you spend"
-        android:inputType="textPersonName"
-        app:layout_constraintBottom_toTopOf="@+id/addPriceET"
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toTopOf="@+id/addLocationBX"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.37"
-        app:layout_constraintStart_toEndOf="@+id/addShopTV"
-        app:layout_constraintTop_toBottomOf="@+id/addNameET"
+        app:layout_constraintStart_toEndOf="@+id/addLocation"
+        app:layout_constraintTop_toBottomOf="@+id/addNameBX"
         app:layout_constraintVertical_bias="0.484" />
 
     <RatingBar
@@ -132,16 +132,16 @@
         app:layout_constraintBottom_toTopOf="@+id/addfooter"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/addPriceET"
+        app:layout_constraintTop_toBottomOf="@+id/addLocationBX"
         app:layout_constraintVertical_bias="0.213" />
 
     <Button
-        android:id="@+id/addCoffeeBtn"
+        android:id="@+id/addAttractionBTN"
         android:layout_width="79dp"
         android:layout_height="84dp"
         android:background="@color/colorFontOffWhite"
 
-        android:onClick="addPlace"
+        android:onClick="addAttraction"
         android:text="@string/addAttractionBtnLbl"
         app:layout_constraintBottom_toTopOf="@+id/addfooter"
         app:layout_constraintEnd_toEndOf="parent"

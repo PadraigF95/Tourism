@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context=".ie.cm.activities.Favourites">
+    tools:context=".activities.Favourites">
 
     <TextView
         android:id="@+id/favouriteBarTV"
@@ -62,7 +62,7 @@
     </FrameLayout>
 
     <TextView
-        android:id="@+id/favouriteCoffeeName"
+        android:id="@+id/favouriteAttractionName"
         android:layout_width="174dp"
         android:layout_height="40dp"
         android:layout_marginStart="8dp"
@@ -76,20 +76,20 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/favouriteCoffeeShop"
+        android:id="@+id/favouriteAttractionLocation"
         android:layout_width="94dp"
         android:layout_height="25dp"
         android:layout_marginStart="48dp"
         android:layout_marginTop="20dp"
-        android:text="shop"
+        android:text="location"
         android:textAlignment="center"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/favouriteCoffeeName" />
+        app:layout_constraintTop_toBottomOf="@+id/favouriteAttractionName" />
 
     <TextView
-        android:id="@+id/favouriteCoffeePrice"
+        android:id="@+id/favouriteAttractionPrice"
         android:layout_width="94dp"
         android:layout_height="25dp"
         android:layout_marginEnd="52dp"
@@ -99,10 +99,10 @@
         android:textColor="@color/colorPrimaryDark"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/favouriteCoffeeRating" />
+        app:layout_constraintTop_toBottomOf="@+id/favouriteAttractionRating" />
 
     <TextView
-        android:id="@+id/favouriteCoffeeRating"
+        android:id="@+id/favouriteAttractionRating"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="56dp"
